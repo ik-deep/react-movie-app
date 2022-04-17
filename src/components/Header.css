@@ -1,0 +1,72 @@
+.MovieContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   padding: 30px;
+   gap:24px;
+   justify-content: space-evenly;
+
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* global 90%+ browsers support */
+    background:conic-gradient(from 90deg at 50% 50%, rgba(63, 81, 181, 1) 0%, rgba(181, 63, 112, 1) 19%, rgba(126, 181, 63, 1) 43%, rgba(98, 63, 181, 1) 52%, rgba(181, 63, 103, 1) 65%, rgba(181, 63, 99, 1) 75%, rgba(139, 195, 74, 1) 100%);
+
+    padding-bottom: 20px;
+    
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+img{
+   height:3rem;
+   width: 3rem;
+   padding: 30px;
+}
+
+
+.search {
+    width: 30%;
+   padding-right:40px ;
+    display: flex;
+    
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #031416;
+    font-size: medium;
+    font-weight: 300;
+    padding: 5px;
+    height: 20px;
+    border-radius: 10px;
+    outline: none;
+    color: #131414;
+  }
+  
+  .searchTerm:focus{
+    color: #1d1f1f;
+    
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #021416;
+    background: #01181b;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+
+
+

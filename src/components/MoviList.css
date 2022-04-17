@@ -1,0 +1,40 @@
+.card{
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    height: auto;
+    box-shadow: 0 3px 10px 0 rgb(255, 62, 62);
+    cursor:pointer ;
+     background-color: rgb(33, 40, 34);
+}
+.poster>img{
+   padding: 0%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.movieName{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin: 15px 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+   
+}
+
+.infoColomn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.movieinfo{
+    font-size: 16px;
+    font-weight: 500;
+    color:white;
+    text-transform: capitalize;
+}
