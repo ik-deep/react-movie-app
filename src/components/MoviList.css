@@ -5,7 +5,7 @@
     height: auto;
     box-shadow: 0 3px 10px 0 rgb(255, 62, 62);
     cursor:pointer ;
-     background-color: rgb(33, 40, 34);
+     background-color: rgb(48, 35, 74);
 }
 .poster>img{
    padding: 0%;
@@ -17,7 +17,7 @@
 .movieName{
     font-size: 18px;
     font-weight: 600;
-    color: white;
+    color: rgb(251, 240, 240);
     margin: 15px 0;
     white-space: nowrap;
     text-overflow: ellipsis;
