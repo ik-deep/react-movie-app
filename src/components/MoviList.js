@@ -6,7 +6,7 @@ function MoviList( props) {
     return (
       <div className='card' onClick={()=>props.onMovieSelect(imdbID)}>
       <div className='poster'>
-      <img src={Poster}/>
+      <img alt="title" src={Poster}/>
       </div>
        
        <div className='movieName'>{Title}</div>
